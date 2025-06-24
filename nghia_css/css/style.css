@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Reset và font */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header và Navigation */
+  header {
+    background-color: #d4e9ff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: #004080;
+  }
+  
+  /* Nav menu */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6600;
+  }
+  
+  /* Main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  main p {
+    margin-bottom: 15px;
+  }
+  
+  main a {
+    color: #0077cc;
+    text-decoration: underline;
+  }
+  
+  main div img {
+    margin: 5px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  main div img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+  }
+  
